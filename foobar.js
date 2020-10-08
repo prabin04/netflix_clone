@@ -3,3 +3,5 @@
 // https://netflix-clone-599ca.web.app
 
 //Install Firebase CLI npm install -g firebase-tools
+
+// npm i axios
