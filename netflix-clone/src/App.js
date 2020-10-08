@@ -6,7 +6,7 @@ import requests from './requests';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App">]
         <h1>Hey Clever Programmer let's build Netflix Clone Front-end Today</h1>
         <Row title="NETFLIX ORIGINALS" fetchUrl={requests.fetchTrending} />
         <Row title="Trending Now" fetchUrl={requests.fetchActionMovies } />
