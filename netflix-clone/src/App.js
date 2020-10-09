@@ -7,6 +7,9 @@ import requests from "./requests";
 function App() {
   return (
     <div className="App">
+      {/* Nav */}
+      {/* Banner */}
+
       <h1>Hey!! let's build Netflix Clone Front-end</h1>
       <Row
         title="NETFLIX ORIGINALS"
