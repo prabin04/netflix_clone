@@ -3,6 +3,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import Row from "./Row";
 import requests from "./requests";
+import Banner from "./Banner";
 
 function App() {
   return (
@@ -10,11 +11,11 @@ function App() {
       {/* Nav */}
       {/* Banner */}
 
-      <h1>Hey!! let's build Netflix Clone Front-end</h1>
+      <Banner />
       <Row
         title="NETFLIX ORIGINALS"
         fetchUrl={requests.fetchTrending}
-        isLargeRow
+        isLargeRow={true}
       />
       <Row title="Trending Now" fetchUrl={requests.fetchTrending} />
       <Row title="Top Rated" fetchUrl={requests.fetchTopRated} />
